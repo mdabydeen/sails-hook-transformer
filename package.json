@@ -1,0 +1,18 @@
+{
+  "name": "sails-hook-transformer",
+  "version": "1.0.0",
+  "description": "Transformer hook that help you to shape your data",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "sails": {
+    "isHook": true
+  },
+  "author": "Michael Dabydeen <mdabydeen@gmail.com>",
+  "license": "MIT ",
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "sails": "^1.1.0"
+  }
+}
